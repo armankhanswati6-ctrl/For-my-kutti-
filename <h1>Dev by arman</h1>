@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>For My Love</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0;
+      color: #333;
+    }
+    h1 {
+      margin-top: 50px;
+      color: #ff0066;
+    }
+    img {
+      width: 300px;
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:first-of-type {
+      background-color: #ff66b2;
+      color: white;
+    }
+    button:last-of-type {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dev by arman</h1> <!-- Changed to arman -->
+  <img src="https://gamehacking26-wq.github.io/for-my-love/MANJA.gif" alt="GIF">
+  <h2>Do you love me?</h2>
+  <p>Chiku is all yours</p>
+  <button onclick="alert('Yes!')">Yes</button>
+  <button onclick="alert('No!')">No</button>
+</body>
+</html>
